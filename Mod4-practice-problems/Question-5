@@ -1,0 +1,11 @@
+#5. A store charges $5 for shipping on any order under $50.
+#If the order amount is $50 or more, shipping is free.
+#Ask the user for the order total and print the total cost, including shipping.
+
+Price = int(input("What is the order total: $"))
+
+if Price < 50:
+    Price_Total = Price + 5
+    print(f"Your total cost is: {Price_Total}")
+else:
+    print(f"Your total cost is: {Price}")
