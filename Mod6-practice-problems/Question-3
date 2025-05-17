@@ -1,0 +1,7 @@
+#3. Create a list of strings. Write code to create a new list that includes only the
+#strings longer than three characters. Print the resulting filtered list.
+words = ["cat", "tree", "sun", "planet", "sky", "blue", "dog"]
+
+filtered_words = [word for word in words if len(word) > 3]
+
+print("Strings longer than 3 characters:", filtered_words)
